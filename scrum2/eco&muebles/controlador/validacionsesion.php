@@ -1,0 +1,28 @@
+<?php
+include ("../modelo/con_dbsesion.php");
+session_start();
+/*asiganr variables de fomrulario*/
+$nombre=($_REQUEST['introducir_nombre']);
+$correo=($_REQUEST['introducir_email']);
+$clave=($_REQUEST['introducir_clave']);
+//consulta
+$sql="SELECT * FROM usuarios WHERE nombres_usuarios='$nombre'AND correo_usuario='$correo' AND pass_usuarios='$clave'";
+$consulta=mysqli_query($conn,$sql);
+
+$lista=mysqli_fetch_array($consulta);
+    if ($lista['id_rol']=="1") {
+        $_SESSION['user']=$nombre;
+        header("location:../vista/listarusuarios.php");
+        //die("Registro Encontrado");
+    }elseif($lista['id_rol']=="2") {
+        $_SESSION['user']=$nombre;
+        header("location:../vista/administrador.php");
+        //die("Registro Encontrado");
+    }else {
+        die("Usuario y/o contraseña no registrada... Verificar");
+    }
+    mysqli_free_result($consulta);
+    mysqli_close($conn);
+?>
+
+ 
