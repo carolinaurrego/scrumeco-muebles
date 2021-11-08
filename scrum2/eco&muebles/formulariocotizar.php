@@ -17,6 +17,7 @@
         </ul>
         <br>
         <br>
+        <br>
         <img  class="logo"src="logos/hogar.png">
              <div class="titulo">
             <strong> ECO & MUEBLES</strong>
