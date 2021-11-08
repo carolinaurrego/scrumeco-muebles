@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 	<title>ECO&MUEBLES</title>		
-	<link rel="stylesheet" type="text/css" href="../estilos/estilo2.css">
+	<link rel="stylesheet" type="text/css" href="../css/estiloregist.css">
 	<meta charset="utf-8">
 	<meta name="keywords" content="MUEBLES">
 	<meta name="description" content="">

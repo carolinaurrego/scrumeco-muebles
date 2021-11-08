@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 	<title>ECO&MUEBLES</title>	
-	<link rel="stylesheet" type="text/css" href="../estilos/estilo19.css">
+	<link rel="stylesheet" type="text/css" href="../css/estilocrud.css">
 	<meta charset="utf-8">
 	<meta name="keywords" content="reparacion,muebles">
 	<meta name="description" content="Pagina de muebles">
