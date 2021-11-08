@@ -46,10 +46,15 @@ form {
   }
 
   .b1{
-    position     : absolute;
+  
     left         : 440px;
     top          : 360px;
+    color: brown;
+    padding      : 5px;
+
+    font         : bold .6em sans-serif;
+    border       : 2px solid #333;
+    border-radius: 5px;
+ 
   
   }
-
-  
