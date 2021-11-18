@@ -4,7 +4,7 @@
     <link rel="icon" href="imagenes/pata.png">
     <meta charset="UTF-8">
     <title>harset="UTF-8">
-    <title>ECO&MUEBLESa</title>
+    <title>ECO&MUEBLES</title>
     <link rel="stylesheet" href="../css/estilosiniciosesion.css">
 </head>
     <! ––CIERRE DE SESION––>

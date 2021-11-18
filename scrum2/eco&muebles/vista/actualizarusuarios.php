@@ -27,7 +27,7 @@ return[
 <html lang="es">
 <head>
 	<title>ECO&MUEBLES</title>		
-	<link rel="stylesheet" type="text/css" href="../css/estiloregist.css">
+	<link rel="stylesheet" type="text/css" href="">
 	<meta charset="utf-8">
 	<meta name="keywords">
 	<meta name="description" content="">
