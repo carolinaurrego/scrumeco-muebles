@@ -11,6 +11,8 @@
 </head>
 <body>    	
 <div class="contenido">
+<a href="../vista/administrador.php"><input type="button" value="Inicio administrador" class="boton1"></a>
+<a href="../vista/registrousuarios.php"><input type="button" value="Registrar" class="boton1"></a>
 <h1 id="subt" align="center">Lista de usuarios</h1>
 <table class="table">
             <thead>
@@ -59,9 +61,9 @@
 			</tbody> 
 			
     </table>
-
-	<a href="../vista/registrousuarios.php"><input type="button" value="Registrar" class="boton1"></a>
-	<a href="../vista/index.php"><input type="button" value="Inicio portafolio" class="boton1"></a>
+	
+	
+	
 </div>
 </body>
 </html>

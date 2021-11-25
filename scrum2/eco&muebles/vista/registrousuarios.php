@@ -16,7 +16,8 @@
 
 <form method="GET" action="../controlador/controladorregistro.php"> 
 	<p>Hola! </P>
-	<input type="hidden" class="ctexto" name="idusuario" ><br><br>
+	<label>Id usuarios</label>
+	<input type="text" class="ctexto" name="idusuarios" ><br><br>
 	<label>Tipo de Documento</label>
 	<input type="text" class="ctexto" name="idtipos" placeholder="Digite 1 si es CC Y Digite 2 si es CE"><br><br>
 	<label>Documento Usuario</label>
@@ -37,12 +38,19 @@
 	<input type="text" class="ctexto" name="idmuni"placeholder="Soacha"><br><br>
 	<label>Id Rol</label>
 	<input type="text" class="ctexto"  name="idRol"><br><br>
-	<label>Nombre Comuna</label>
-	<input type="text" class="ctexto"  name="nomcomuna"><br><br>
+	<select name="nomcomuna">
+      		<option value="Leon XIII">Leon XIII</option>
+      		<option value="Despensa">Despensa</option>
+            <option value="Olivos 1 sector ">Olivos 1 sector</option>
+            <option value="Olivos 2 sector">Olivos 2 sector</option>
+            <option value="Olivos 3 sector">Olivos 3 sector</option>
+        </select>
+        <br>
+        <br>
 	<input class="b1" type="submit"  name="register">
 	
 </form>
-	<a id="v" href="listarusuarios.php"><button class="b1"> VOLVER LISTADO</button></a>
+	<a id="v" href="../vista/listarusuarios.php"><button class="b1"> VOLVER LISTADO</button></a>
 	
 <footer>
 	

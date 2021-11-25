@@ -12,7 +12,7 @@ require('../vista/registrousuarios.php');
 require('../dao/daoUsuariosImpl.php');
 $dao=new DaoUsuariosImpl();
 if (isset($_GET['register'])) {
-    $id_usuarios=$_GET['idusuario'];
+    $id_usuarios=$_GET['idusuarios'];
     $id_tipos=$_GET['idtipos'];
     $documento_usuarios=$_GET['documentouser'];
     $nombres_usuarios=$_GET['nameuser'];

@@ -11,7 +11,7 @@ $consulta=mysqli_query($conn,$sql);
 $lista=mysqli_fetch_array($consulta);
     if ($lista['id_rol']=="1") {
         $_SESSION['user']=$nombre;
-        header("location:../vista/listarusuarios.php");
+        header("location:../vista/iniciocliente.php");
         //die("Registro Encontrado");
     }elseif($lista['id_rol']=="2") {
         $_SESSION['user']=$nombre;
