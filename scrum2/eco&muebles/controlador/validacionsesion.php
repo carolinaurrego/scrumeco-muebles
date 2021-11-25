@@ -2,11 +2,10 @@
 include ("../modelo/con_dbsesion.php");
 session_start();
 /*asiganr variables de fomrulario*/
-$nombre=($_REQUEST['introducir_nombre']);
 $correo=($_REQUEST['introducir_email']);
-$clave=($_REQUEST['introducir_clave']);
+$clave=md5($_REQUEST['introducir_clave']);
 //consulta
-$sql="SELECT * FROM usuarios WHERE nombres_usuarios='$nombre'AND correo_usuario='$correo' AND pass_usuarios='$clave'";
+$sql="SELECT * FROM usuarios WHERE correo_usuario='$correo' AND pass_usuarios='$clave'";
 $consulta=mysqli_query($conn,$sql);
 
 $lista=mysqli_fetch_array($consulta);

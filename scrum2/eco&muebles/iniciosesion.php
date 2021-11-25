@@ -30,13 +30,7 @@
       <div class="contact_form">
           <form method="POST" action="controlador/validacionsesion.php">
             <div class="formulario">      
-            <h1>Inicio de sesion</h1>
-            <p>
-              <label for="nombre" class="colocar_nombre">Nombre
-              <span class="obligatorio">*</span>
-              </label><input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
-            </p>
-                  
+            <h1>Inicio de sesion</h1>     
             <p>
               <label for="email" class="colocar_email">Email
               <span class="obligatorio">*</span>
@@ -48,7 +42,7 @@
               <label for="clave" class="colocar_clave">clave
               <span class="obligatorio">*</span>
               </label>
-              <input type="text" name="introducir_clave" id="clave" required="obligatorio" placeholder="clave">
+              <input type="password" name="introducir_clave" id="clave" required="obligatorio" placeholder="clave">
             </p>    
                   
                                

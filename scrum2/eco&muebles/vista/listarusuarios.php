@@ -50,7 +50,7 @@
 			<td><?php echo  $key->getnom_comuna() ?></td>       
 			<td>		
 			<a href="../controlador/controladoreliminar.php?id_usuarios=<?php echo $key->getid_usuarios();?>"><input type="submit" value="Eliminar" ></a>
-			<a href="actualizarusuarios.php?id_usuarios=<?php echo $key->getid_usuarios();?>"><input type="submit" value="Actualizar" name="update"></a>
+			<a href="../vista/actualizarusuarios.php?id_usuarios=<?php echo $key->getid_usuarios();?>"><input type="submit" value="Actualizar" name="update"></a>
 			</td>
 			</tr>
 			<?php

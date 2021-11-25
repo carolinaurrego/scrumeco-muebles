@@ -26,7 +26,7 @@
     <p>podra eliminar ,actualizar usuarios.</p>
 
     <form name="form2" method="POST" action="../modelo/cerrarsesion.php">
-        <input class="b1" type="submit" name="button" value="Cerrar Sesión">		
+        <input class="b1" type="submit" name="cierre" value="Cerrar Sesión">		
     </form>
         
     </div>
